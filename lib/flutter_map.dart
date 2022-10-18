@@ -118,6 +118,8 @@ abstract class MapController {
   CenterZoom centerZoomFitBounds(LatLngBounds bounds,
       {FitBoundsOptions? options});
 
+  Future<void> get onReady;
+
   LatLng get center;
 
   LatLngBounds? get bounds;

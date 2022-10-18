@@ -25,6 +25,7 @@ class MapControllerImpl implements MapController {
     }
   }
 
+  @override
   Future<void> get onReady => _readyCompleter.future;
 
   @override
